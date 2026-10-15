@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1 class="main-title">My Portfolio</h1>
+
+        <img src="image/mypic.jpg" width="150" height="150"
+             style="border-radius: 50%;" id="profile-pic">
+    </header>
+
+    <main id="main-content">
+
+        <form id="portfolio-form">
+
+            <fieldset class="form-section" id="information">
+                <legend>Information</legend>
+
+                <table class="info-table">
+                    <tr>
+                        <td><label class="field-label">Name:</label></td>
+                        <td><b>Yousuf Sarkar Rifat</b></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="age" class="field-label">Age:</label></td>
+                        <td>
+                            <input type="number" id="age" name="age"
+                                   placeholder="Enter your age">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="cgpa" class="field-label">CGPA:</label></td>
+                        <td>
+                            <input type="text" id="cgpa" name="cgpa"
+                                   placeholder="Enter your CGPA">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="credit" class="field-label">Credit:</label></td>
+                        <td>
+                            <input type="number" id="credit" name="credit"
+                                   placeholder="Enter completed credit">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+
+            <fieldset class="form-section" id="education">
+                <legend>Education</legend>
+
+                <table class="info-table">
+                    <tr>
+                        <td><b class="field-label">University:</b></td>
+                        <td>American International University-Bangladesh</td>
+                    </tr>
+
+                    <tr>
+                        <td><b class="field-label">Department:</b></td>
+                        <td>CSE</td>
+                    </tr>
+
+                    <tr>
+                        <td><b class="field-label">College:</b></td>
+                        <td>Shaheed Ramiz Uddin Cantonment College</td>
+                    </tr>
+
+                    <tr>
+                        <td><b class="field-label">School:</b></td>
+                        <td>Bhuapur Pilot Government High School</td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+
+            <fieldset class="form-section" id="personal-interest">
+                <legend>Personal Interest</legend>
+
+                <table class="info-table">
+
+                    <tr>
+                        <td class="label-cell" valign="top">
+                            <b class="field-label">Hobby:</b>
+                        </td>
+
+                        <td class="option-cell">
+                            <input type="checkbox" id="traveling"
+                                   name="hobby" value="Traveling">
+                            <label for="traveling">Traveling</label>
+                            <br>
+
+                            <input type="checkbox" id="gardening"
+                                   name="hobby" value="Gardening">
+                            <label for="gardening">Gardening</label>
+                            <br>
+
+                            <input type="checkbox" id="card-collecting"
+                                   name="hobby" value="Card Collecting">
+                            <label for="card-collecting">Card Collecting</label>
+                            <br>
+
+                            <input type="checkbox" id="photography"
+                                   name="hobby" value="Photography">
+                            <label for="photography">Photography</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <b class="field-label">Favorite Sport:</b>
+                        </td>
+                        <td>Football</td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell" valign="top">
+                            <b class="field-label">Favorite Anime:</b>
+                        </td>
+
+                        <td class="option-cell">
+                            <input type="checkbox" id="naruto"
+                                   name="anime" value="Naruto">
+                            <label for="naruto">Naruto</label>
+                            <br>
+
+                            <input type="checkbox" id="one-piece"
+                                   name="anime" value="One Piece">
+                            <label for="one-piece">One Piece</label>
+                            <br>
+
+                            <input type="checkbox" id="bleach"
+                                   name="anime" value="Bleach">
+                            <label for="bleach">Bleach</label>
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+
+            <br>
+
+            <footer id="footer">
+                <button type="submit" id="submit-btn"
+                        class="form-button">Submit</button>
+
+                <button type="reset" id="reset-btn"
+                        class="form-button">Reset</button>
+            </footer>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
